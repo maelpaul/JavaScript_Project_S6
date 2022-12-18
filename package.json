@@ -1,0 +1,23 @@
+{
+  "name": "projetss6-robot-15555",
+  "source": "public/robot.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "jest"
+  },
+  "type": "module",
+  "dependencies": {
+    "clean-jsdoc-theme": "^3.3.4",
+    "jest": "^27.5.1",
+    "jsdoc": "^3.6.10",
+    "ts-jest": "^27.1.4"
+  },
+  "script": {
+    "generate-docs": "node_modules/.bin/jsdoc --configure jsdoc.json --verbose"
+  },
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
+}

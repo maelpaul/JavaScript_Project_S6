@@ -1,0 +1,76 @@
+body {
+  color: #eee;
+  background-color: #404040;
+  font-family: Helvetica, Arial;
+}
+
+div#visualizer {
+  width: 680px;
+  height: 720px;
+  background: #333;
+  margin: auto;
+  font: 25px / 25px Arial;
+}
+
+#visualizer table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+#visualizer_board td {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 0;
+  font-family: robots;
+  font-size: 24px;
+}
+
+#visualizer_board td.red_tile {
+  background: linear-gradient(to top left, red, #933);
+  border: 1px solid gray;
+}
+
+#visualizer_board td.green_tile {
+  background: linear-gradient(to top left, #0a4, #373);
+  border: 1px solid gray;
+}
+
+#visualizer_board td.blue_tile {
+  background: linear-gradient(to top left, #04f, #339);
+  border: 1px solid gray;
+}
+
+#visualizer_buttons {
+  text-align: center;
+}
+
+@font-face {
+  font-family: robots;
+  src: url("robot.ab27978b.ttf") format("truetype");
+}
+
+#page {
+  grid-template-columns: 50% 100%;
+  display: grid;
+}
+
+#stack {
+  height: 200px;
+  width: 80%;
+  flex-direction: column;
+  display: flex;
+}
+
+.elt {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+#message {
+  text-align: center;
+  margin-top: 10%;
+}
+
+/*# sourceMappingURL=robot.f49ceba6.css.map */
