@@ -13,7 +13,7 @@ The command to visualize the tests is (it may take 60s):
 The main file is launched with the following command : 
 - `node src/main.js`
 
-The commands to generate and to see the viewer are : 
+The commands to generate and to see the viewer are (parcel has to be installed) : 
 - `make gen`
 - `npm start`
 - `lauch your browser and open this link : http://localhost:1234/`
