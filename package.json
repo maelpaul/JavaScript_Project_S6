@@ -9,15 +9,15 @@
   },
   "type": "module",
   "dependencies": {
-    "clean-jsdoc-theme": "^3.3.4",
+    "clean-jsdoc-theme": "^4.2.3",
     "jest": "^27.5.1",
-    "jsdoc": "^3.6.10",
+    "jsdoc": "^4.0.0",
     "ts-jest": "^27.1.4"
   },
   "script": {
     "generate-docs": "node_modules/.bin/jsdoc --configure jsdoc.json --verbose"
   },
   "devDependencies": {
-    "parcel": "^2.4.1"
+    "parcel": "^2.8.3"
   }
 }
